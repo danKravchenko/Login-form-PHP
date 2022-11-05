@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form action="handler.php" method="post">
+        <h1>Register</h1>
+        <p>Kindly fill in this form to register</p>
+        <!--Username-->
+        <label>Username</label>
+        <input type="text" placeholder="Enter username" name="username">
+        <!--Email-->
+        <label>Email</label>
+        <input type="email" placeholder="Enter email" name="email">
+        <!--Password-->
+        <label>Password</label>
+        <input type="password" placeholder="Enter password" name="password">
+        <!--Repeat password-->
+        <label>Repeat password</label>
+        <input type="password" placeholder="Repeat password" name="repeat-password">
+        <input type="submit" value="Register">
+    </form>
+</body>
+
+</html>
